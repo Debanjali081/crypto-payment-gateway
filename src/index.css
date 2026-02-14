@@ -1,11 +1,11 @@
 @font-face {
   font-family: content;
-  src: url('./fonts/NeueMachina-Light.woff2');
+  src: url('/fonts/NeueMachina-Light.woff2');
 }
 
 @font-face {
   font-family: nav;
-  src: url('./fonts/Manrope-VariableFont_wght.woff2');
+  src: url('/fonts/Manrope-VariableFont_wght.woff2');
 }
 
 
