@@ -1,0 +1,34 @@
+@font-face {
+  font-family: content;
+  src: url('./fonts/NeueMachina-Light.woff2');
+}
+
+@font-face {
+  font-family: nav;
+  src: url('./fonts/Manrope-VariableFont_wght.woff2');
+}
+
+
+@import "tailwindcss";
+
+
+
+@theme {
+  /* This creates 'bg-bg' */
+  --color-bg: #0f1115;
+
+  /* This creates 'text-brand-light' */
+  --color-brand-light: #f7d774;
+
+  /* This creates 'bg-brand-gradient' */
+  --background-image-brand-gradient: linear-gradient(
+    90deg,
+    #f7d774 0%,
+    #e7b94e 40%,
+    #d49a2a 100%
+  );
+
+  /* This creates 'text-brand-dark' for the button text */
+  --color-brand-dark: #1a1a1a;
+
+}
